@@ -3,7 +3,8 @@ Roulette CLI game
 
 Build:
 
-`sudo make`
+`cd Roulette`
+`make`
 
 How to play:
 
