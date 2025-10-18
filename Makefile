@@ -1,16 +1,5 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -pedantic
-LIBS = -lncurses
-TARGET = roulette
-SOURCE = roulette.c
-
-$(TARGET): $(SOURCE)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE) $(LIBS)
-
-debug: $(SOURCE)
-	$(CC) $(CFLAGS) -g -o $(TARGET) $(SOURCE) $(LIBS)
+roulette: roulette.c
+	gcc roulette.c -o roulette -lncurses
 
 clean:
-	rm -f $(TARGET)
-
-.PHONY: clean debug
+	rm -f roulette
