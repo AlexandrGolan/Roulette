@@ -4,6 +4,7 @@ Roulette CLI game
 Build:
 
 `cd Roulette`
+
 `make`
 
 How to play:
