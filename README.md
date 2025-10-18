@@ -1,9 +1,8 @@
-#Roulette CLI game
+Roulette CLI game
 
 
-#Build
-
-'''sudo make'''
+Build
+sudo make
 
 #How to play:
 
