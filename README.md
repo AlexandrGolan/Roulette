@@ -1,7 +1,7 @@
 Roulette CLI game
 
 
-Build
+Build:
 
 `sudo make`
 
