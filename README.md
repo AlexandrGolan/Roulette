@@ -1,10 +1,11 @@
-#Roulette CLI game
+Roulette CLI game
 
 
-#Build
+Build
+
 `sudo make`
 
-#How to play:
+How to play:
 
 1.Run the roulette binary
 
